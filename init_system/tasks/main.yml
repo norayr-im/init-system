@@ -1,0 +1,10 @@
+---
+
+- name: Update services
+  apt:
+    update_cache: true
+
+- name: Install vim package
+  apt:
+    name: vim
+    state: latest
